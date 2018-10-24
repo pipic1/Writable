@@ -1,103 +1,138 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>WebEditor</title>
-  
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>WebEditor</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="theme-color" content="#2c63ff">
+    <meta name="msapplication-TileImage" content="web_hi_res_512.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#2c63ff">
+    <meta name="apple-mobile-web-app-title" content="Writable - A great markdown editor.">
+    <meta name="application-name" content="Writable - A great markdown editor.">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#2c63ff">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Pierre Pic">
+    <meta name="description" content="Writable - A great markdown editor.">
+    <meta property="og:description" content="Writable - A great markdown editor.">
+    <meta property="og:image" content="web_hi_res_512.png">
+    <meta property="og:locale" content="fr">
+    <meta property="og:site_name" content="Writable - A great markdown editor.">
+    <meta property="og:title" content="Writable - A great markdown editor.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="article:published_time" content="2017-10-27T13:27:58.607Z">
+    <meta property="article:author" content="Pierre PIC">
+    <meta property="article:section" content="website">
+    <base src="//github.io">
+    <title>Writable - A great markdown editor.</title>
+    <link rel="canonical" href="/">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="res/mipmap-hdpi/ic_launcher.png" sizes="76x76">
+    <link rel="icon" href="res/mipmap-32/ic_launcher.png" sizes="32x32">
+    <link rel="icon" href="res/mipmap-16/ic_launcher.png" sizes="16x16">
+    <link rel="manifest" href="manifest.json">
+    <link rel="image_src" href="web_hi_res_512.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-  <link rel='stylesheet' href='https://codepen.io/pipic1/pen/oPdxqV.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
+    <link rel='stylesheet' href='https://codepen.io/pipic1/pen/oPdxqV.css'>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-      <div class="header-flex bg-primary responsive-smartphone ease">
+    <div class="header-flex bg-primary responsive-smartphone ease">
         <ul class="menu-list">
             <li class="inline text-center padding-m">
                 <h1 class="bg-primary">Writable </h1>
             </li>
         </ul>
         <ul class="menu-list right flex responsive-smartphone flex-wrap">
-					<button id="edit_all" class="btn-secondary margin-m"><i class="fas fa-pen btn-icon-inner"></i>Edit all</button>
-                <button id="printBtn" class="btn-secondary margin-m"><i class="fas fa-print btn-icon-inner"></i>Print</button>
+            <button id="edit_all" class="btn-secondary margin-m"><i class="fas fa-pen btn-icon-inner"></i>Edit all</button>
+            <button id="printBtn" class="btn-secondary margin-m"><i class="fas fa-print btn-icon-inner"></i>Print</button>
         </ul>
     </div>
 
-<span id="classBadge" class="badge">testid</span>
+    <span id="classBadge" class="badge">testid</span>
 
-<div id="mainContainer" class="container wh-80">
+    <div id="mainContainer" class="container wh-80">
 
-<div id="markdownFull">
-	<h1>🛸 Here we go!</h1>
+        <div id="markdownFull">
+            <h1>🛸 Here we go!</h1>
 
-<p>Writable is here!</p>
+            <p>Writable is here!</p>
 
-<p>Writable, is a markdown powered editor, but not like all editor are actually exist.</p>
+            <p>Writable, is a markdown powered editor, but not like all editor are actually exist.</p>
 
-<p>Three or more...</p>
+            <p>Three or more...</p>
 
-<h4>Made with Github</h4>
+            <h4>Made with Github</h4>
 
-<h2>Cool stuff 🐙</h2>
+            <h2>Cool stuff 🐙</h2>
 
-<p>Writable, is a markdown powered editor, but not like all editor are actually exist.</p>
+            <p>Writable, is a markdown powered editor, but not like all editor are actually exist.</p>
 
-<p>Not a 2-side with markdown on a side, and preview on the other. Just an editor, which convert directly your markdown to text</p>
+            <p>Not a 2-side with markdown on a side, and preview on the other. Just an editor, which convert directly
+                your markdown to text</p>
 
-<h2>Two type of edition 🖊️</h2>
+            <h2>Two type of edition 🖊️</h2>
 
-<h3>- Edit all text</h3>
+            <h3>- Edit all text</h3>
 
-<p>Click on the edit all button, and you can modify directly all the page. Easy to make multiple modification.</p>
+            <p>Click on the edit all button, and you can modify directly all the page. Easy to make multiple
+                modification.</p>
 
-<h3>-&nbsp; Edit selection</h3>
+            <h3>-&nbsp; Edit selection</h3>
 
-<p>If you click on a line you can directly edit it. On the side a little badge help you to know, what type of content you actually modify.</p>
+            <p>If you click on a line you can directly edit it. On the side a little badge help you to know, what type
+                of content you actually modify.</p>
 
-<h2>Print easily 🖨️</h2>
+            <h2>Print easily 🖨️</h2>
 
-<p>Just use the top button print, to print directly your new document.</p>
+            <p>Just use the top button print, to print directly your new document.</p>
 
-<h2>Web Typography research 🔤</h2>
+            <h2>Web Typography research 🔤</h2>
 
-<p>Before code this editor I work on vertically and horizontally rhythm for web text, just read it. article <a href="http://webtypography.net/3.2.1">here</a></p>
+            <p>Before code this editor I work on vertically and horizontally rhythm for web text, just read it. article
+                <a href="http://webtypography.net/3.2.1">here</a></p>
 
-<p>How that's is possible!</p>
+            <p>How that's is possible!</p>
 
-<h2>I want to learn markdown</h2>
+            <h2>I want to learn markdown</h2>
 
-<p>It's here, you can easily integrate youtube video thumbnails:</p>
+            <p>It's here, you can easily integrate youtube video thumbnails:</p>
 
-<p><img alt="IMAGE ALT TEXT HERE" src="https://img.youtube.com/vi/HUBNt18RFbo/0.jpg"></p>
+            <p><img alt="IMAGE ALT TEXT HERE" src="https://img.youtube.com/vi/HUBNt18RFbo/0.jpg"></p>
 
-<h2>New cool stuff</h2>
+            <h2>New cool stuff</h2>
 
-<p>Comming soon:</p>
+            <p>Comming soon:</p>
 
-<p>Font, integration of 3 differents fonts Table, and complex markdown font-size to print</p>
+            <p>Font, integration of 3 differents fonts Table, and complex markdown font-size to print</p>
 
-<h4>Made with <strong>CodePen</strong></h4>
+            <h4>Made with <strong>CodePen</strong></h4>
 
-<p>&nbsp;By <strong>Pierre Pic</strong>.</p>
+            <p>&nbsp;By <strong>Pierre Pic</strong>.</p>
 
-<p>All right reserved, 2018.</p></div>
+            <p>All right reserved, 2018.</p>
+        </div>
 
-</div>
+    </div>
 
-  <button id="validModification" class="btn btn-clear btn-fab" style="-webkit-tap-highlight-color: transparent;width:auto;border-radius:35px;"><i class="fas fa-save btn-icon-inner"></i>Valider mes modifications
-  </button>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://unpkg.com/turndown/dist/turndown.js'></script>
-<script src='https://raw.github.com/shokai/jQuery.editable/master/jquery.editable.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/markdown.js/0.5.0/markdown.min.js'></script>
-<script src='https://use.fontawesome.com/releases/v5.1.0/js/all.js'></script>
-    <script  src="js/index.js"></script>
+    <button id="validModification" class="btn btn-clear btn-fab" style="-webkit-tap-highlight-color: transparent;width:auto;border-radius:35px;"><i
+            class="fas fa-save btn-icon-inner"></i>Valider mes modifications
+    </button>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://unpkg.com/turndown/dist/turndown.js'></script>
+    <script src='https://raw.github.com/shokai/jQuery.editable/master/jquery.editable.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/markdown.js/0.5.0/markdown.min.js'></script>
+    <script src='https://use.fontawesome.com/releases/v5.1.0/js/all.js'></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
