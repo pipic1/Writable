@@ -14,8 +14,7 @@ Writable is here!
 
 Writable, is a markdown powered editor, but not like all editor are actually exist.
 
-Three or more...
-#### Made with Github
+#### Made with **Github**
 ## Cool stuff 🐙
 
 Writable, is a markdown powered editor, but not like all editor are actually exist.
