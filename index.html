@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>WebEditor</title>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='https://codepen.io/pipic1/pen/oPdxqV.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+      <div class="header-flex bg-primary responsive-smartphone ease">
+        <ul class="menu-list">
+            <li class="inline text-center padding-m">
+                <h1 class="bg-primary">Writable </h1>
+            </li>
+        </ul>
+        <ul class="menu-list right flex responsive-smartphone flex-wrap">
+					<button id="edit_all" class="btn-secondary margin-m"><i class="fas fa-pen btn-icon-inner"></i>Edit all</button>
+                <button id="printBtn" class="btn-secondary margin-m"><i class="fas fa-print btn-icon-inner"></i>Print</button>
+        </ul>
+    </div>
+
+<span id="classBadge" class="badge">testid</span>
+<!--	<div id="toolbox" class="row flex">
+		<button class="btn btn-clear padding-s hoverable">
+			<i class="fas fa-bold"></i>
+		</button>
+		<button class="btn btn-clear padding-s hoverable">
+			<i class="fas fa-italic"></i>
+		</button>
+		<button class="btn btn-clear padding-s hoverable">
+			<i class="fas fa-underline"></i>
+		</button>
+		<button class="btn btn-clear padding-s hoverable">
+			<i class="far fa-check-square"></i>
+		</button>
+		<button class="btn btn-clear padding-s hoverable">
+			<i class="fas fa-quote-right"></i>
+		</button>
+		<button class="btn btn-clear padding-s hoverable">
+			<i class="fas fa-heading"></i>
+		</button>
+		<button class="btn btn-clear padding-s hoverable">
+			<i class="fas fa-paragraph"></i>
+		</button>
+	</div>
+-->
+<div id="mainContainer" class="container wh-80">
+
+<div id="markdownFull">
+	<h1>🛸 Here we go!</h1>
+
+<p>Writable is here!</p>
+
+<p>Writable, is a markdown powered editor, but not like all editor are actually exist.</p>
+
+<p>Three or more...</p>
+
+<h4>Made with CodePen</h4>
+
+<p><img alt="alt text" src="https://static.codepen.io/assets/footer/codepen-logo-midgray-0711f75fbf09cc2e68d3836668e0eba8c28d76760d1e40386095ce503428bd03.svg"></p>
+
+<h2>Cool stuff 🐙</h2>
+
+<p>Writable, is a markdown powered editor, but not like all editor are actually exist.</p>
+
+<p>Not a 2-side with markdown on a side, and preview on the other. Just an editor, which convert directly your markdown to text</p>
+
+<h2>Two type of edition 🖊️</h2>
+
+<h3>- Edit all text</h3>
+
+<p>Click on the edit all button, and you can modify directly all the page. Easy to make multiple modification.</p>
+
+<h3>-&nbsp; Edit selection</h3>
+
+<p>If you click on a line you can directly edit it. On the side a little badge help you to know, what type of content you actually modify.</p>
+
+<h2>Print easily 🖨️</h2>
+
+<p>Just use the top button print, to print directly your new document.</p>
+
+<h2>Web Typography research 🔤</h2>
+
+<p>Before code this editor I work on vertically and horizontally rhythm for web text, just read it. article <a href="http://webtypography.net/3.2.1">here</a></p>
+
+<p>How that's is possible!</p>
+
+<h2>I want to learn markdown</h2>
+
+<p>It's here, you can easily integrate youtube video thumbnails:</p>
+
+<p><img alt="IMAGE ALT TEXT HERE" src="https://img.youtube.com/vi/HUBNt18RFbo/0.jpg"></p>
+
+<h2>New cool stuff</h2>
+
+<p>Comming soon:</p>
+
+<p>Font, integration of 3 differents fonts Table, and complex markdown font-size to print</p>
+
+<h4>Made with <strong>CodePen</strong></h4>
+
+<p>&nbsp;By <strong>Pierre Pic</strong>.</p>
+
+<p>All right reserved, 2018.</p></div>
+
+</div>
+
+  <button id="validModification" class="btn btn-clear btn-fab" style="-webkit-tap-highlight-color: transparent;width:auto;border-radius:35px;"><i class="fas fa-save btn-icon-inner"></i>Valider mes modifications
+  </button>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://unpkg.com/turndown/dist/turndown.js'></script>
+<script src='https://raw.github.com/shokai/jQuery.editable/master/jquery.editable.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/markdown.js/0.5.0/markdown.min.js'></script>
+<script src='http://use.fontawesome.com/releases/v5.1.0/js/all.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
